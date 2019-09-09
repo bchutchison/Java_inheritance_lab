@@ -36,9 +36,16 @@ public abstract class Employee {
     public void setName(String name) {
         this.name = name;
     }
+    
+    //raises salary
+    public void raiseSalary(double raise) {
+        this.salary += raise;
+    }
 
-//    public void raiseSalary(double raise) {
-//        this.salary + raise;
-//    }
+    //pays bonus
+    public double payBonus() {
+        return this.salary / 100 * 1;
+    }
+
 
 }
