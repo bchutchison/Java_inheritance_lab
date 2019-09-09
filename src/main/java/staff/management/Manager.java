@@ -1,5 +1,3 @@
-
-
 package staff.management;
 
 import staff.Employee;
