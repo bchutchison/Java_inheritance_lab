@@ -8,4 +8,6 @@ public class Developer extends Employee {
         super(name, NI, salary);
     }
 
+
+
 }

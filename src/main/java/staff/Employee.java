@@ -29,11 +29,20 @@ public abstract class Employee {
         return name;
     }
 
+    public void setName(String name) {
+        if (name != null) {
+            this.name = name;
+        }
+
+    }
 
     //raises salary
     public void raiseSalary(double raise) {
-        this.salary += raise;
+        this.salary += Math.abs(raise);
     }
+
+
+
 
     //pays bonus
     public double payBonus() {
